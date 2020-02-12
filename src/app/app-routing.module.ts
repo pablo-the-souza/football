@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { ScheduleComponent } from './schedule/schedule.component';
+import { CityComponent } from './city/city.component';
+
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'schedule', component: ScheduleComponent }
+  { path: 'city', component: CityComponent },
 ];
 
 @NgModule({

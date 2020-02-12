@@ -1,0 +1,49 @@
+
+mat-toolbar {
+  height: 10%; 
+}
+
+.footer {
+  position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 1; /* Sets the sticky toolbar to be on top */
+}
+
+mat-icon {
+   
+  display: inline-flex; 
+  vertical-align: middle; 
+  margin-bottom: 5px; 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: lightgray
+}
+
+#logo img {
+  max-height: 80px;
+  max-width: 100px;
+}
+
+.navigation-items {
+  list-style: none; 
+  padding:0;
+  margin: 0; 
+}
+
+.nav-caption {
+  line-height: 20px; 
+  padding-left: 6px
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}

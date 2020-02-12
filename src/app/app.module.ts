@@ -1,26 +1,47 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//Routing
 import { AppRoutingModule } from './app-routing.module';
+
+//Components
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+
+//Material
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule}  from '@angular/flex-layout';
-import { ScheduleComponent } from './schedule/schedule.component';
+
+//Bootstrap
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CityComponent } from './city/city.component';
+import { FooterComponent } from './navigation/footer/footer.component';
+
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ScheduleComponent
+    HeaderComponent,
+    SidenavListComponent,
+    CityComponent,
+    FooterComponent, 
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    NgbModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

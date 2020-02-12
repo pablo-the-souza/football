@@ -1,26 +1,16 @@
-<mat-sidenav-container>
+<app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+<mat-sidenav-container >
+  
   <mat-sidenav #sidenav role="navigation">
-   Start
+    <app-sidenav-list (closeSidenav) ="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>
+  
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <div>
-        <button mat-icon-button (click)="sidenav.toggle()">
-        <mat-icon>menu</mat-icon>
-        </button>
-      </div>
-      <div>LOGO</div>
-      <div>
-        <ul >
-          <li><a routerLink="/schedule">Tabela</a></li>
-          <li><a routerLink="/accomodation">Hospedagem</a></li>
-        </ul>
-        
-        
-      </div>
-    </mat-toolbar>
+    
     <main>
       <router-outlet></router-outlet>
     </main>
   </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-sidenav-container >
+<app-footer></app-footer> 
+

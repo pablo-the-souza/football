@@ -1,0 +1,21 @@
+mat-nav-list {
+  background-color: #283593;
+  height: 100%;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: lightgray
+}
+
+.nav-caption {
+  display: flex;
+  padding-left: 6px;
+  color: white; 
+}
