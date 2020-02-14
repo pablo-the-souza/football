@@ -42,7 +42,13 @@ a:active {
 
 .nav-caption {
   line-height: 20px; 
-  padding-left: 6px
+  padding-left: 6px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.torneio {
+  padding-left: 36px; 
 }
 
 li {

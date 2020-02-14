@@ -18,7 +18,3 @@ html, body {
 ngb-carousel img {
   object-fit: cover;
 }
-
-.carousel-caption {
-  border: red dotted 5px; 
-}

@@ -8,6 +8,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatExpansionModule}  from '@angular/material/expansion';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   imports: [
@@ -18,6 +21,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatListModule,
     MatCardModule, 
     MatExpansionModule,
+    MatGridListModule,
+    MatTabsModule,
+    MatTableModule,
     NgbModule
   ],
   exports: 
@@ -28,7 +34,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatGridListModule,
+    MatTableModule,
+    MatTabsModule
   ]
 })
 

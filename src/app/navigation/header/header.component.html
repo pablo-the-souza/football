@@ -10,6 +10,9 @@
         src="../../../assets/img/29c778_78846aa797de429da784ffcefe2e0cd7.png"
     /></a>
   </div>
+
+  
+
   <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
     <ul fxLayout fxLayoutGap="10px" class="navigation-items">
       <li>
@@ -20,7 +23,7 @@
       </li>
       <li>
        
-        <a routerLink="/schedule">
+        <a routerLink="/club">
         <mat-icon>sports_soccer</mat-icon>
         <span class="nav-caption">O Clube</span>
         </a>
@@ -32,17 +35,25 @@
         </a>
       </li>
       <li>
-        <a routerLink="">
+        <a routerLink="/test">
         <mat-icon>videocam</mat-icon>
         <span class="nav-caption">Mídia</span>
         </a>
       </li>
       <li>
-        <a routerLink="">
+        <a routerLink="/contact">
         <mat-icon>email</mat-icon>
         <span class="nav-caption">Contato</span>
         </a>
       </li>
+
+      <li class="torneio">
+        <a routerLink="/tournament">
+          <fa-icon [icon]="faTrophy"></fa-icon>
+              <span class="nav-caption">Torneio de Futebol Juvenil</span>
+        </a> 
+      </li>
+      
     </ul>
   </div>
 </mat-toolbar>

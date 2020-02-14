@@ -1,0 +1,33 @@
+.citybg {
+  background-image: url(../../assets/img/citybg.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  min-height: 900px; 
+}
+.city {
+  display: flex; 
+  padding-top: 80px; 
+  flex-wrap: wrap; 
+}
+mat-expansion-panel {
+  margin: 20px; 
+  background-color: #C5CAE9;
+}
+
+mat-panel-title {
+  font-size: 32px; 
+}
+
+.title {
+  justify-content: center; 
+}
+
+.example-card {
+  width: 400px; 
+}
+
+.picsum-img-wrapper img {
+  object-fit: cover; 
+  height: 100%;
+  width: 100%; 
+}
